@@ -12,17 +12,21 @@
     background-color: bisque;
     color:blue;
 }
-.HORSTER{
+.Horster{
     color:crimson;
-    font-size: 40px;
-    font:italic;
-    font-style: normal;
-    filter:invert(0.6);
-}
-.BILLING{
-    color:blueviolet;
-    font-size: 40px;
+    font-size: 20px;
     font:bold;
     font-style: normal;
-    filter:invert(0.6);
+}
+.Billing{
+    color:blueviolet;
+    font-size: 20px;
+    font:bold;
+    font-style: normal;
+}
+.Stockmann{
+    color:chartreuse;
+    font-size: 20px;
+    font:bold;
+    font-style: normal;
 }
