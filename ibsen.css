@@ -30,3 +30,26 @@
     font:bold;
     font-style: normal;
 }
+    .cast-table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+    .cast-table th, .cast-table td {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: center;
+    }
+    .cast-table th {
+        background-color: palevioletred;
+    }
+    .cast-table tr:nth-child(even) {
+        background-color: white;
+    }
+    
+    
+
+    
+    
+    
+    
