@@ -56,7 +56,19 @@ table th {
 }
 
 table tbody tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color:  #f2f2f2;
+}
+
+.brovik:hover {
+    color: rgb(9, 24, 239);
+    text-shadow: 3px 2px 3px rgb(48, 163, 121);
+    background-color: rgb(96, 140, 34);
+}
+
+.solness:hover {
+    color: rgb(139, 34, 93);
+    text-shadow: 3px 2px 3px rgb(56, 56, 160);
+    background-color: rgb(59, 187, 117);
 }
    
 
