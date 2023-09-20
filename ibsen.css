@@ -95,7 +95,7 @@ table tbody tr:nth-child(even) {
     float:left;
     background-color:black;
     color:black;
-    display:block; 
+    display:book; 
 }
  li a {
     display: block;
