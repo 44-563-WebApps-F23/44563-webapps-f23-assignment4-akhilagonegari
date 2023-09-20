@@ -4,8 +4,10 @@
     color:black;
 }
 .direction{
+    background-color: rgb(166, 184, 170);
     font-family:  'Times New Roman', Times, serif;
     font-size:small;
+    color: black;
 }
 
 .direction:hover{
@@ -63,17 +65,20 @@ table tbody tr:nth-child(even) {
     color: rgb(9, 24, 239);
     text-shadow: 3px 2px 3px rgb(48, 163, 121);
     background-color: rgb(96, 140, 34);
+    filter: blur(1px);
 }
 
 .Stockmann:hover {
     color: rgb(139, 34, 93);
     text-shadow: 3px 2px 3px rgb(56, 56, 160);
     background-color: rgb(202, 75, 227);
+    filter: blur(1px);
 }
 .Billing:hover {
     color: rgb(139, 34, 93);
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
     background-color: rgb(23, 165, 37); 
+    filter:blur(1px);
 }
 
 
@@ -87,9 +92,11 @@ table tbody tr:nth-child(even) {
   }
   
 .navbar {
-    background-color: #333;
+    background-color: #2a0f0f;
     color: white;
+    float:left;
     text-align: center;
+    display:black;
     padding: 10px 0;
 }
 
@@ -98,6 +105,24 @@ table tbody tr:nth-child(even) {
     text-decoration: none;
     margin: 0 20px; 
 }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d62929;
+  }
+  
+  li {
+    float: left;
+  }
 
 .navbar a:hover {
     text-decoration: underline;
