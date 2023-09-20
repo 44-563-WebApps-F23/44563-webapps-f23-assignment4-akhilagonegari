@@ -70,6 +70,10 @@ table tbody tr:nth-child(even) {
     text-shadow: 3px 2px 3px rgb(56, 56, 160);
     background-color: rgb(59, 187, 117);
 }
+.brovik:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    border: 2px solid burlywood; 
+}
    
 
     
