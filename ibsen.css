@@ -89,40 +89,39 @@ table tbody tr:nth-child(even) {
   margin-bottom: 11px;
     margin-right: 100px;
    margin-left: 80px;
-  }
-  
-.navbar {
-    background-color: #2a0f0f;
-    color: white;
-    float:left;
-    text-align: center;
-    display:black;
-    padding: 10px 0;
 }
+.navbar-horizontal{
+    padding: 15px;
+    float:left;
+    background-color:black;
+    color:black;
+    display:block; 
+}
+ li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d62929;
+}
+  
+li {
+    float: left;
+}
+  
 
 .navbar a {
     color: white;
     text-decoration: none;
     margin: 0 20px; 
 }
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px 18px;
-    text-decoration: none;
-  }
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #d62929;
-  }
-  
-  li {
-    float: left;
-  }
 
 .navbar a:hover {
     text-decoration: underline;
