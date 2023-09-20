@@ -77,7 +77,31 @@ table tbody tr:nth-child(even) {
 }
 
 
+.img{
+    width: 170px;
+    height: 300px;
+    margin-top: 40px;
+  margin-bottom: 11px;
+    margin-right: 100px;
+   margin-left: 80px;
+  }
+  
+.navbar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
 
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px; 
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
     
     
     
